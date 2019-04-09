@@ -1,0 +1,257 @@
+/*** SETUP ***/
+
+#portfolio-head {
+  color: black ;
+  margin: 15px;
+}
+
+* {
+  margin: 0 ;
+  padding: 0;
+  font: 'lato';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/*** LANDING PAGE ***/
+
+.sub {
+  width: 750px;
+  height: 400px;
+  margin: auto;
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  margin-top: -220px;
+  left: 50%;
+  margin-left: -375px;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /*border: solid black 2px;*/
+}
+
+
+.custom-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: transparent;
+
+}
+
+.custom-button2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    color: black;
+    border: 1px solid white;
+    display: flex;
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: 'white';
+
+}
+
+#button-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    margin-top: 20px;
+}
+
+
+#sub-heading {
+    font-family: 'Montserrat' !important;
+    font-size: 24px
+}
+
+video {
+  position: absolute !important;
+  top: 55% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  background: transparent !important;
+  z-index: 0 !important;
+  overflow: hidden !important;
+}
+
+.cont {
+  height: 100% !important;
+  width: 100% !important;
+  position: relative!important;
+  z-index: 2!important;
+  background-color: rgba(0, 0, 0, 0.8)!important;
+  margin: 0!important;
+  background-image: url(pictures/skyscraper_mobile.jpg);
+     background-size: cover;
+}
+
+#fix {
+  height: 100%!important;
+  z-index: 2!important;
+  position: relative!important;
+  width: 100%!important;
+  background-color: rgba(0, 0, 0, 0.4)!important;
+}
+
+#logoCont: {
+    width: 450px;
+    height: 400px;
+}
+
+
+
+.main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#logo {
+  margin: auto;
+  position: relative;
+  z-index: 4;
+  margin-bottom: 0px;
+  padding: 0;
+  border-bottom: solid white 1px;
+
+  border-radius: 5px;
+  vertical-align: middle;
+  padding-bottom: 0px;  
+  font: 'lato' !importnat; 
+    width: 400px;
+}
+
+#logo h1 {
+  display: inline-block;
+  font-size: 60px;
+}
+
+#logo h1 span {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sub h2 {
+  color: white;
+  font-family: lato;
+  font-weight: 300;
+  margin: 30px 0px 30px 0;
+}
+
+.btn {
+  z-index: 5;
+  margin: 10px 20px;
+  color: rgba(61, 155, 233, 1);
+}
+
+#btt: {
+    border-radius: 25px;
+}
+
+#header {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: 7;
+  padding: 25px 40px;
+  text-align: right;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  margin: 5px 5px;
+  display: inline-block;
+}
+
+.social-icon:hover {
+  height: 42px;
+  width: 42px;
+  margin: 3px 3px;
+  margin-left: 5px;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.sub .btn-sm {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #header {
+    display: none;
+  }
+
+  #logo h1 {
+    font-size: 40px;
+  }
+
+  #logo {
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+  }
+
+  .sub {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    z-index: 3;
+    margin-top: -200px;
+    left: 0%;
+
+  }
+
+  dd .sub h2 {
+    font-size: 25px;
+  }
+
+  .sub .btn-lg {
+    display: none;
+  }
+
+  .sub .btn-sm {
+    display: block;
+    width: 80%
+  }
+    
+
+}
