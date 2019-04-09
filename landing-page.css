@@ -86,43 +86,45 @@ body {
 
 #button-title {
     font-family: 'Montserrat';
-    font-size: 26px;
+    font-size: 24px;
     color: white;
-    margin-bottom: 10px
+  
+    font-style: italic;
 }
 
 
 
 .custom-button {
-    width: 200px;
-    height: 40px;
-    border-radius: 20px;
+    width: 225px;
+    height: 45px;
+    border-radius: 22.5px;
     color: white;
     border: 2px solid white;
     display: flex;
     font-family: 'Montserrat' !important;
     text-align: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     background-color: transparent;
     margin: 30px;
+    font-weight: 500;
 
 }
 
 .custom-button2 {
-    width: 200px;
-    height: 40px;
-    border-radius: 20px;
+    width: 225px;
+    height: 45px;
+    border-radius: 22.5px;
     color: black;
     border: 1px solid white;
     display: flex;
     font-family: 'Montserrat' !important;
     text-align: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     background-color: white;
     margin: 30px;
-
+    font-weight: 500;
 }
 
 /*** LANDING PAGE **
