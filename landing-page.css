@@ -36,7 +36,7 @@ body {
 }
 
 #inner-container {
-        border: 3px solid green;
+
         height: 100%;
         width: 100%;
         position: fixed;
@@ -59,7 +59,7 @@ body {
 }
 
 #borderd {
- border: 3px solid green;
+
     height: 100%;
     width: 100%;
     position: relative;
