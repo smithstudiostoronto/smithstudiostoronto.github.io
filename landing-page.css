@@ -21,7 +21,7 @@ body {
     width: 100%;
     display: flex;
 
-    background: url('./pictures/try8.jpg') no-repeat top center fixed; 
+    background: url('./pictures/try3.jpg') no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,6 +34,19 @@ body {
     padding-left: 25px;
 
 }
+
+#sheet {
+      height: 100%!important;
+  z-index: 0!important;
+  position: fixed;
+  width: 100%!important;
+  background-color: rgba(0, 0, 0, 0.7)!important;
+            top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+}
+
 
 #inner-container {
 
@@ -50,12 +63,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 #logo {
     padding: 0;
     height: 34px;
     width: 188px;
+    z-index: 3;
 }
 
 #borderd {
@@ -73,6 +88,7 @@ body {
     padding-right: 25px;
     padding-bottom: 24px;
     border-bottom: 0px;
+        z-index: 3;
 }
 #border-inner {
     box-sizing: content-box;
