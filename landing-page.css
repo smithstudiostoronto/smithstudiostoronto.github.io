@@ -31,43 +31,99 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main_bg_2.jpg', sizingMethod='scale')";
     overflow: hidden;
     padding: 15px;
+    padding-left: 25px;
 
 }
 
+#inner-container {
+        border: 3px solid green;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 49px 40px;
+    padding-left: 0px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #logo {
-    
     padding: 0;
-    
     height: 34px;
     width: 188px;
+}
+
+#borderd {
+ border: 3px solid green;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 #border-outer {
 
     height: 100%;
     width: 100%;
-
     padding-top: 19px;
     padding-right: 25px;
-    padding-bottom: 17px;
-
+    padding-bottom: 24px;
     border-bottom: 0px;
 }
 #border-inner {
     box-sizing: content-box;
     height: 100%;
     width: 100%;
-    /*
-    margin-top: 18px;
-    margin-right: 18px;
-    */
     border: 3px solid white;
     border-left: 0px;
     border-bottom: 0px;
+
+}
+
+#button-title {
+    font-family: 'Montserrat';
+    font-size: 26px;
+    color: white;
+    margin-bottom: 10px
 }
 
 
 
+.custom-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: transparent;
+    margin: 15px;
+
+}
+
+.custom-button2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid white;
+    display: flex;
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: white;
+    margin: 15px;
+
+}
 
 /*** LANDING PAGE **
 
