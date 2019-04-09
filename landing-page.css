@@ -19,8 +19,9 @@ body {
     
     height: 100%;
     width: 100%;
+    display: flex;
 
-    background: url('./pictures/trying.png') no-repeat center center fixed; 
+    background: url('./pictures/try8.jpg') no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,18 +35,36 @@ body {
 }
 
 #logo {
-    border: 1px solid white
+    
+    padding: 0;
+    
+    height: 34px;
+    width: 188px;
 }
 
-#border {
+#border-outer {
+
     height: 100%;
     width: 100%;
 
-    border: 0px solid white;
+    padding-top: 19px;
+    padding-right: 25px;
+    padding-bottom: 17px;
+
+    border-bottom: 0px;
+}
+#border-inner {
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+    /*
+    margin-top: 18px;
+    margin-right: 18px;
+    */
+    border: 3px solid white;
     border-left: 0px;
     border-bottom: 0px;
 }
-
 
 
 
