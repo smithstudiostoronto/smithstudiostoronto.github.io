@@ -78,7 +78,7 @@ body {
     box-sizing: content-box;
     height: 100%;
     width: 100%;
-    border: 3px solid white;
+    border: 2px solid white;
     border-left: 0px;
     border-bottom: 0px;
 
@@ -105,7 +105,7 @@ body {
     justify-content: center;
     font-size: 14px;
     background-color: transparent;
-    margin: 15px;
+    margin: 30px;
 
 }
 
@@ -121,7 +121,7 @@ body {
     justify-content: center;
     font-size: 14px;
     background-color: white;
-    margin: 15px;
+    margin: 30px;
 
 }
 
