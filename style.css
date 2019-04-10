@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* SETUP */
+
+#portfolio-head {
+  color: black;
+  margin: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato';
+  font-weight: 300;
+  background: #666;
+}
+
+/* NAV */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  box-sizing: border-box;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  /* border-right: solid white 1px; */
+  padding-right: 15%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 19.5px;
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+
+}
+
+nav a:hover {
+  color: #f4f4f4;
+
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  background-color: #f4f4f4;
+  bottom: -2px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/* BODY */
+
+#sub {
+  height: 100%;
+  width: 100%;
+  background-image: url("Pictures/CnTower_Right.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+pic2,
+pic3 {
+  opacity: 0.6;
+}
+
+.pic1 {
+  background-image: url("Pictures/test.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 90%;
+}
+
+.pic2 {
+  background-image: url("Pictures/StockSnap_OMYH5HH6XV.jpg");
+  background-size: cover;
+  min-height: 400px;
+}
+
+.pic3 {
+  background-image: url("Pictures/StockSnap_KPZSH8JU7S.jpg");
+  background-size: cover;
+  min-height: 400px;
+  background-position: right;
+}
+
+.scroll {
+  transform: rotate(90deg);
+
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  /*#6D8E61;*/
+  color: black;
+}
+
+.section-dark {
+  background-color: #f4f4f4;
+  /*#282e34;*/
+  color: black;
+  width: 100%;
+  position: relative;
+  height: 200px;
+}
+
+.ptext1 {
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 8px;
+  margin-left: -20%;
+  line-height: 30px;
+  text-shadow: 1px 1px black;
+}
+
+.ptext1 .border1 {
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: 300;
+  font-size: 17px;
+  word-spacing: -1px;
+
+}
+
+.main1 {
+  margin: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.btn1 {
+  height: 40px;
+  width: 30px;
+  background-color: #00B22D;
+  border-radius: 500px;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-shadow: none;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  border: 2px solid #00B22D;
+  background-color: transparent;
+}
+
+/* ABOUT */
+
+#ahead {
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+#about-section {
+  text-align: center;
+  margin-bottom: -15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#about-section p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0px auto;
+  text-align: center;
+  width: 35%;
+  border-bottom: solid black 3px;
+  border-top: solid black 3px;
+  padding: 30px;
+  display: inline-block;
+  position: relative;
+}
+
+.pic-frame {
+  float: right;
+  display: inline-block;
+  width: 55%;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* PORTFOLIO */
+
+section a {
+  height: 200px;
+  width: 30%;
+}
+
+.portfolio-veiw {
+  height: 200px;
+  width: 30%;
+  display: inline-block;
+  border: black solid 2px;
+  padding: 0;
+  margin: 20px 5px;
+  margin-top: 35px;
+}
+
+.portfolio-veiw:hover {
+  background-color: black;
+}
+
+#web1 {
+  background-image: url("Pictures/Screen%20Shot%202017-08-03%20at%207.13.00%20PM.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#web2 {
+  background-image: url("Pictures/new/Screen%20Shot%202017-10-07%20at%2011.35.02%20PM.png");
+  background-size: cover;
+
+}
+
+#web3 {}
+
+/* PRICE TABLE */
+
+.pricehead {
+  margin-top: 40px;
+}
+
+.check {
+  height: 20px;
+  width: 20px;
+}
+
+.price {
+  color: #00B22D;
+}
+
+td {
+  border: solid black 1px;
+  padding: 5px 2.5px;
+  margin: 10px;
+  position: relative;
+}
+
+.fineprint {
+  font-size: 10px;
+}
+
+/* FOOTER */
+
+.foot {
+  width: 100%;
+  height: 25px;
+  background-color: #252525;
+  color: white;
+  padding: 5px;
+  font-size: 11px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+
+}
+
+
+
+#social {}
+
+#copyright {
+  top: 50%;
+  position: relative;
+  display: inline-block;
+  margin-left: 25px;
+
+
+}
+
+.border1 h1 {
+  color: white;
+}
+
+/* CONTACT */
+
+#contact {
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  background-image: url(Pictures/new/hamburg-1354775_1920.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: ;
+  margin-top: -15px;
+  padding: 40px;
+
+  color: white;
+}
+
+/* Style inputs with type="main1text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid black;
+  /* Gray border */
+  /*border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin: 10px 0;
+  /* Add a top margin */
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+
+
+  color: black;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 40%;
+  height: 470px;
+  margin: auto;
+  color: white;
+  border: 1px solid white;
+
+}
+
+/* FEATURES */
+
+#features-head {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  position: relative;
+
+}
+
+#features {
+  background-color: #f4f4f4;
+  height: 300px;
+  width: 100%;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.feat-icon img {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+
+.feat-icon {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center;
+}
+
+.call {
+  margin: auto;
+  position: relative;
+  height: auto;
+  width: 80%;
+}
+
+/* LANDING PAGE */
+
+video {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  background: transparent;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.cont {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+#fix {
+  height: 100%;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.sub {
+  width: 450px;
+  height: 400px;
+  margin: auto;
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  left: 50%;
+  margin-left: -225px;
+  align-content: center;
+  text-align: center;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#logo {
+  margin: auto;
+  position: relative;
+  z-index: 4;
+  margin-bottom: 0px;
+  padding: 0;
+  border-bottom: solid white 1px;
+  width: 80%;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding-bottom: 20px;
+
+}
+
+#logo h1 span {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sub h2 {
+  color: white;
+  font-family: lato;
+  font-weight: 300;
+  margin: 40px 0;
+}
+
+.btn {
+  z-index: 5;
+  margin: 0px 20px;
+  color: rgba(61, 155, 233, 1);
+}
+
+.sub a {}
+
+/* SHEET */
+
+.sheet {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  background-color: black;
+}
+
+
+@media (max-width: 1165px) {
+
+  .ptext1 {
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .ptext1 .border1 {
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  /* NAV */
+
+  .container {
+    width: %;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  header {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+  }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .logo {
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    display: inline;
+    /* border-right: solid white 1px; */
+    padding-right: 0;
+    margin: auto;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+
+  }
+
+}
