@@ -1,61 +1,72 @@
 #main-logo {
-  background-color: #28a745;
-  margin-right: 10px;
+    background-color: #28a745;
+    margin-right: 10px;
 }
 
 #cus-logo h4 {
-  margin: 0;
-
+    margin: 0;
 }
 
 #navbar-menu_1 {
-  width: 270px;
-  display: inline-block !important;
-
+    width: 270px;
+    display: inline-block !important;
 }
 
 #navbar-menu_1 ul li a {
-  margin: 0px;
-  padding-right: 5px;
-  padding-left: 5px;
+    margin: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-
 #navbar-menu_2 {
-  width: 450px;
-  display: inline-block !important;
-  padding-right: -20px !important;
+    width: 450px;
+    display: inline-block !important;
+    padding-right: -20px !important;
 }
 
 #cus-logo {
-  position: relative;
-  display: inline-block;
-  padding-top: 12px;
-  width: 200px;
-  height: 20px;
-  vertical-align: top;
+    position: relative;
+    display: inline-block;
+    padding-top: 12px;
+    width: 200px;
+    height: 20px;
+    vertical-align: top;
 }
 
 #logo-nav-black {
-  color: black;
-  font-weight: 700;
-  font-family: lato;
-  font-size: 35px;
-  margin-top: -65px
+    color: black;
+    font-weight: 700;
+    font-family: lato;
+    font-size: 35px;
+    margin-top: -65px
 }
 
 #logo-nav-white {
-  color: white;
-  font-weight: 700;
-  font-family: lato;
-  font-size: 35px;
-  margin-top: 5px;
+    color: white;
+    font-weight: 700;
+    font-family: lato;
+    font-size: 35px;
+    margin-top: 5px;
 }
+
 /*   */
 @media only screen and (max-width: 1050px) {
     #logo-nav-black {
         position: absolute;
-        
+
     }
 }
-  
+
+#website-small {
+    display: none
+}
+
+@media only screen and (max-width: 650px) {
+    #website-large {
+        display: none
+    }
+
+    #website-small {
+        display: block;
+    }
+}
