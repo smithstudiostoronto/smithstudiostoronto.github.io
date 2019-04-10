@@ -14,7 +14,67 @@ body {
   margin: 0;
 }
 
+@media only screen and (min-width: 701px) {
+    #mobile-container {
+        display: none
+    }
+    
+    #desktop-container {
+          height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+    }
+    .sub {
 
+
+    }
+video {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  width: auto;
+  height: auto!important;
+  background: transparent !important;
+  z-index: 0 !important;
+  overflow: hidden !important;
+}
+    
+    .cont {
+  height: 100% !important;
+  width: 100% !important;
+  position: relative!important;
+  z-index: 2!important;
+  background-color: rgba(0, 0, 0, 0)!important;
+  margin: 0!important;
+  background-image: url('pictures/try7.jpg');
+     background-size: cover;
+    background-position: center;
+}
+    #fix {
+  height: 100%!important;
+  z-index: 2!important;
+  position: relative!important;
+  width: 100%!important;
+  background-color: rgba(0, 0, 0, 0.3)!important;
+}
+    #logoCont: {
+    width: 450px;
+    height: 400px;
+}
+
+    
+}
+
+@media only screen and (max-width: 700px) {
+
+/*** MOBILE CSS ****/
+        #desktop-container {
+display: none
+    }
 #mobile-container {
     
     height: 100%;
@@ -40,11 +100,11 @@ body {
   z-index: 0!important;
   position: fixed;
   width: 100%!important;
-  background-color: rgba(0, 0, 0, 0.7)!important;
-            top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+  background-color: rgba(0, 0, 0, 0.4)!important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -57,7 +117,7 @@ body {
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 49px 40px;
+        padding: 49px 20px;
     padding-left: 0px;
         display: flex;
     align-items: center;
@@ -85,7 +145,7 @@ body {
     height: 100%;
     width: 100%;
     padding-top: 19px;
-    padding-right: 25px;
+    padding-right: 21px;
     padding-bottom: 24px;
     border-bottom: 0px;
         z-index: 3;
@@ -97,12 +157,12 @@ body {
     border: 2px solid white;
     border-left: 0px;
     border-bottom: 0px;
-
+    border-top-right-radius: px;
 }
 
 #button-title {
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 20px;
     color: white;
   
     font-style: italic;
@@ -141,8 +201,10 @@ body {
     background-color: white;
     margin: 30px;
     font-weight: 500;
+    opacity: 0.8
 }
 
+}
 /*** LANDING PAGE **
 
 .sub {
