@@ -60,6 +60,12 @@ a:hover {
         min-width: 214px;
     }
 
+    .custom-button:hover {
+        background-color: white;
+        color: black;
+    }
+
+
     .custom-button2 {
 
         height: 40px;
@@ -110,7 +116,7 @@ a:hover {
         z-index: 4;
         margin-bottom: 0px;
         padding: 0;
-        border-bottom: solid white 1px;
+
 
         border-radius: 5px;
         vertical-align: middle;
@@ -250,6 +256,7 @@ a:hover {
         padding-right: 21px;
         padding-bottom: 24px;
         border-bottom: 0px;
+        padding-left: 6px;
         z-index: 3;
     }
 
@@ -312,6 +319,8 @@ a:hover {
         opacity: 0.8
     }
 */
+
+
     .custom-button2 {
 
         height: 40px;
@@ -330,6 +339,12 @@ a:hover {
         font-size: 12px;
         padding: 11px 35px;
         min-width: 214px;
+    }
+
+    .custom-button2:hover {
+        background-color: transparent;
+        color: White;
+
     }
 }
 
