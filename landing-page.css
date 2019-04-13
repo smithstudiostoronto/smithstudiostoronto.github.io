@@ -256,7 +256,7 @@ a:hover {
         padding-right: 21px;
         padding-bottom: 24px;
         border-bottom: 0px;
-        padding-left: 6px;
+        padding-left: 0px;
         z-index: 3;
     }
 
@@ -326,7 +326,7 @@ a:hover {
         height: 40px;
         border-radius: 20px;
         color: black;
-        border: 1px solid black;
+       
         display: flex;
         font-family: 'Montserrat' !important;
         text-align: center;
@@ -335,7 +335,7 @@ a:hover {
         background-color: white;
         margin: 20px;
         font-weight: 500;
-        opacity: 0.8;
+  
         font-size: 12px;
         padding: 11px 35px;
         min-width: 214px;
