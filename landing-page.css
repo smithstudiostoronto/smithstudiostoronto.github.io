@@ -104,11 +104,22 @@ a:hover {
     padding: 0;
     height: 34px;
     width: 188px;
-    z-index: 3;
+    z-index: 20;
 
 
 
 }
+
+#logo-anchor {
+    padding: 0;
+    height: 34px;
+    width: 188px;
+    z-index: 21;
+
+
+
+}
+
 
 
 #border-outer {
