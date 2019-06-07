@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./custom.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Designsninja">
+    <!-- description -->
+    <meta name="description" content="Torneo is creative agency, corporate, simple and clean template, Based on Bootstrap responsive multipurpose agency and portfolio HTML5 template with 28 unique home page demos">
+    <!-- keywords -->
+    <meta name="keywords" content="creative, inspiration, business, photography, portfolio, one page, bootstrap responsive, start-up, ui/ux, html5, css3, studio, branding, creative design, multipurpose, parallax, personal, masonry, grid, coming soon, carousel, career">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SmithStudios - Creative Agency</title>
+
+
+    <!-- Core Style Sheets -->
+    <link rel="stylesheet" href="assets/css/master.css">
+    <!-- Responsive Style Sheets -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Revolution Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!--== Loader Start ==-->
+    <div id="loader-overlay">
+        <div class="loader">
+            <svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="ndew 0 0 0 0" xml:space="preserve">
+                <rect x="20" y="50" width="4" height="10" fill="#28a745">
+                    <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0" dur="0.6s" repeatCount="indefinite" />
+                </rect>
+                <rect x="30" y="50" width="4" height="10" fill="#28a745">
+                    <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.2s" dur="0.6s" repeatCount="indefinite" />
+                </rect>
+                <rect x="40" y="50" width="4" height="10" fill="#28a745">
+                    <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.4s" dur="0.6s" repeatCount="indefinite" />
+                </rect>
+            </svg>
+        </div>
+    </div>
+    <!--== Loader End ==-->
+
+    <!--== Wrapper Start ==-->
+    <div class="wrapper">
+
+<!--== Contact Form Style 01 Start ==-->
+  <section class="white-bg">
+    <div class="container">
+    	<div class="row">
+        	<div class="col-sm-8 section-heading">
+              <h1 class="text-uppercase mt-0">Contact us</h1>
+        	</div>
+        </div>
+        <div class="row mt-50">
+            <div class="col-md-12">
+              <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-01">
+                <div class="messages"></div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                      <label class="sr-only" for="name">Name</label>
+                      <input type="text" name="name" class="md-input" id="name" placeholder="Name *" required data-error="Your Name is Required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                      <label class="sr-only" for="email">Email</label>
+                      <input type="email" name="email" class="md-input" id="email" placeholder="Email *" required data-error="Please Enter Valid Email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="form-group">
+                    	<label class="sr-only" for="subject">Subject</label>
+                    	<input type="text" name="subject" class="md-input" id="subject-2" placeholder="Company">
+                	  </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="form-group">
+                      <label class="sr-only" for="message">Project Details</label>
+                      <textarea name="message" class="md-textarea" id="message" rows="7" placeholder="Project Details" required data-error="Please, explain your project"></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                    <div class="col-md-12 col-sm-12">
+                                   <h4 style="padding-left: 5px">BUDGET</h4>
+                    </div>
+     
+                  <div class="col-md-12 col-sm-12">
+                    <form method="get">
+                      <select name="orderby" class="orderby">
+                        <option value="">$0 - $1999</option>
+                        <option value="">$2000 - $4999</option>
+                            <option value="">$5000 - $14,999</option>
+                            <option value="">$15,000 - $29,999</option>
+                              <option value="">$30,000+</option>
+                      </select> <input type="hidden" name="paged" value="1">
+                      <input type="hidden" name="min_price" value="20"><input type="hidden" name="max_price" value="290">
+                    </form>
+                  </div>
+                    
+                  <div class="col-md-12 col-sm-12">
+                    <div class="text-left mt-20">
+                      <button type="submit" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Send Message <i class="ion-android-arrow-forward"></i></span></button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--== Contact Form Style 01 End ==-->
+
+         <!--== Footer Start ==-->
+        <footer class="footer dark-block">
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="widget widget-text">
+                                <div class="logo logo-footer"><a href="index.html">
+                                        <h1 id="logo-nav-white" class="logo logo-display">
+                                            Smith<span style=" color: white; font-weight: 100; letter-spacing: -1px">Studios</span>
+                                        </h1>
+                                    </a> </div>
+                                <p>Our success has been founded on providing customers with the latest technologies so they can compete in today’s global marketplace. Our products and value-added services are engineered to meet our customers’ requirements and expectations.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                        </div>
+                        <div class="col-sm-6 col-md-2">
+                            <div class="widget widget-links">
+                                <h5 class="widget-title">Useful Links</h5>
+                                <ul>
+                                    <li><a href="./solutions-page.html">Solutions</a></li>
+                                    <li><a href="./app-page.html">Applications</a></li>
+                                    <li><a href="./website-page.html">Websites</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="widget widget-links">
+                                <h5 class="widget-title">Contact Us</h5>
+                                <div class="widget-links">
+                                    <ul>
+                                        <li>1 Yonge St, Toronto, ON M5E 1W7</li>
+                                        <li>(647) 786 3842</li>
+                                        <li>info@smithstudios.ca</li>
+                                        <li>www.SmithStudios.ca</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="copy-right text-left">© 2019 SmithStudios. All rights reserved</div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <ul class="social-media">
+                                <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+                                <li><a href="#" class="icofont icofont-social-instagram"></a></li>
+                                <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--== Footer End ==-->
+        <!--== Go to Top  ==-->
+        <a href="javascript:" id="return-to-top"><i class="icofont icofont-arrow-up"></i></a>
+        <!--== Go to Top End ==-->
+
+    </div>
+    <!--== Wrapper End ==-->
+
+    <!--== Javascript Plugins ==-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/master.js"></script>
+
+    <!-- Typewriter Addon -->
+    <script type="text/javascript" src="revolution/js/revolution.addon.typewriter.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="revolution/css/typewriter.css">
+
+    <script type="text/javascript">
+        var tpj = jQuery;
+
+        var revapi1014;
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider_1014_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_1014_1");
+            } else {
+                revapi1014 = tpj("#rev_slider_1014_1").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "revolution/js/",
+                    sliderLayout: "fullscreen",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        mouseScrollReverse: "default",
+                        onHoverStop: "off",
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        },
+                        arrows: {
+                            style: "uranus",
+                            enable: true,
+                            hide_onmobile: true,
+                            hide_under: 768,
+                            hide_onleave: false,
+                            tmp: '',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 20,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 20,
+                                v_offset: 0
+                            }
+                        }
+                    },
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1240, 1024, 778, 480],
+                    gridheight: [868, 768, 960, 600],
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "on",
+                    stopAfterLoops: 0,
+                    stopAtSlide: 1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    fullScreenAutoWidth: "off",
+                    fullScreenAlignForce: "off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "60px",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+
+            RsTypewriterAddOn(tpj, revapi1014);
+        }); /*ready*/
+    </script>
+
+
+    <!-- Revolution js Files -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/revolution.extension.video.min.js"></script>
+    <!--== Javascript Plugins End ==-->
+
+</body>
+
+</html>

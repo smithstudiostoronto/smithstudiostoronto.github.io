@@ -1765,6 +1765,8 @@ input.search-bar-top:-moz-placeholder {
     color: #28a745 !important;
 }
 
+
+
 .secondary-color {
     color: #430D3C !important;
 }
@@ -5715,7 +5717,7 @@ li.post-comment {
 }
 
 .footer .widget-links a:hover {
-    color: #BF0731;
+    color: #28a745;
     text-decoration: none;
 }
 
@@ -8766,7 +8768,7 @@ footer .xl-icon li:last-child {
     display: block;
     width: 20%;
     height: 1px;
-    background: #BF0731;
+    background: #28a745;
     position: absolute;
     top: 55px;
     text-align: center;
