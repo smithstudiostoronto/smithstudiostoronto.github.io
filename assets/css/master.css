@@ -227,7 +227,7 @@ h6 {
     color: #212121;
     margin: 20px 0 10px 0;
     font-style: normal;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -4935,7 +4935,7 @@ img.mfp-img {
 }
 
 .pricing-box h2 sup {
-    font-size: 25px;
+    font-size: 20px;
     top: -15.6px;
 }
 
@@ -8689,7 +8689,7 @@ footer .xl-icon li:last-child {
 .our-process-style-01 .count,
 .our-process-style-01 .count-wrap:after,
 .our-process-style-01 .count-wrap:before {
-    background-color: #BF0731;
+    background-color: #28a745;
 }
 
 .our-process-style-01 .count {

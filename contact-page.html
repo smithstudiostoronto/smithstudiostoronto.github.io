@@ -60,7 +60,7 @@
         </div>
         <div class="row mt-50">
             <div class="col-md-12">
-              <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-01">
+              <form name="contact-form" id="contact-form" method="POST" class="contact-form-style-01">
                 <div class="messages"></div>
                 <div class="row">
                   <div class="col-md-6 col-sm-6">
@@ -80,7 +80,7 @@
                   <div class="col-md-12 col-sm-12">
                     <div class="form-group">
                     	<label class="sr-only" for="subject">Subject</label>
-                    	<input type="text" name="subject" class="md-input" id="subject-2" placeholder="Company">
+                    	<input type="text" name="subject" class="md-input" id="subject-2" placeholder="Company Name">
                 	  </div>
                   </div>
                   <div class="col-md-12 col-sm-12">
@@ -109,7 +109,7 @@
                     
                   <div class="col-md-12 col-sm-12">
                     <div class="text-left mt-20">
-                      <button type="submit" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Send Message <i class="ion-android-arrow-forward"></i></span></button>
+                      <button onclick="myFunction()" type="submit" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Send Message <i class="ion-android-arrow-forward"></i></span></button>
                     </div>
                   </div>
                 </div>
@@ -295,6 +295,15 @@
     <script type="text/javascript" src="revolution/js/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="revolution/js/revolution.extension.video.min.js"></script>
     <!--== Javascript Plugins End ==-->
+    <script tpye="text/javascript">
+        
+        function myFunction() {
+              console.log(document.getElementById("contact-form"));
+            }
+    
+    
+    
+    </script>
 
 </body>
 
