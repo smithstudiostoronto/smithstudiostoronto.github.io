@@ -50,77 +50,76 @@
     <!--== Wrapper Start ==-->
     <div class="wrapper">
 
-<!--== Contact Form Style 01 Start ==-->
-  <section class="white-bg">
-    <div class="container">
-    	<div class="row">
-        	<div class="col-sm-8 section-heading">
-              <h1 class="text-uppercase mt-0">Contact us</h1>
-        	</div>
-        </div>
-        <div class="row mt-50">
-            <div class="col-md-12">
-              <form name="contact-form" id="contact-form" method="POST" class="contact-form-style-01">
-                <div class="messages"></div>
+        <!--== Contact Form Style 01 Start ==-->
+        <section class="white-bg">
+            <div class="container">
                 <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                    <div class="form-group">
-                      <label class="sr-only" for="name">Name</label>
-                      <input type="text" name="name" class="md-input" id="name" placeholder="Name *" required data-error="Your Name is Required">
-                      <div class="help-block with-errors"></div>
+                    <div class="col-sm-8 section-heading">
+                        <h1 class="text-uppercase mt-0">Contact us</h1>
                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="form-group">
-                      <label class="sr-only" for="email">Email</label>
-                      <input type="email" name="email" class="md-input" id="email" placeholder="Email *" required data-error="Please Enter Valid Email">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-12">
-                    <div class="form-group">
-                    	<label class="sr-only" for="subject">Subject</label>
-                    	<input type="text" name="subject" class="md-input" id="subject-2" placeholder="Company Name">
-                	  </div>
-                  </div>
-                  <div class="col-md-12 col-sm-12">
-                    <div class="form-group">
-                      <label class="sr-only" for="message">Project Details</label>
-                      <textarea name="message" class="md-textarea" id="message" rows="7" placeholder="Project Details" required data-error="Please, explain your project"></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                    <div class="col-md-12 col-sm-12">
-                                   <h4 style="padding-left: 5px">BUDGET</h4>
-                    </div>
-     
-                  <div class="col-md-12 col-sm-12">
-                    <form method="get">
-                      <select name="orderby" class="orderby">
-                        <option value="">$0 - $1999</option>
-                        <option value="">$2000 - $4999</option>
-                            <option value="">$5000 - $14,999</option>
-                            <option value="">$15,000 - $29,999</option>
-                              <option value="">$30,000+</option>
-                      </select> <input type="hidden" name="paged" value="1">
-                      <input type="hidden" name="min_price" value="20"><input type="hidden" name="max_price" value="290">
-                    </form>
-                  </div>
-                    
-                  <div class="col-md-12 col-sm-12">
-                    <div class="text-left mt-20">
-                      <button onclick="myFunction()" type="submit" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Send Message <i class="ion-android-arrow-forward"></i></span></button>
-                    </div>
-                  </div>
                 </div>
-              </form>
-            </div>
-        </div>
-    </div>
-  </section>
-  <!--== Contact Form Style 01 End ==-->
+                <div class="row mt-50">
+                    <div class="col-md-12">
+                        <form name="contact-form" id="contact-form" method="POST" class="contact-form-style-01">
+                            <div class="messages"></div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="name">Name</label>
+                                        <input type="text" name="name" class="md-input" id="name" placeholder="Name *" required data-error="Your Name is Required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="email">Email</label>
+                                        <input type="email" name="email" class="md-input" id="email" placeholder="Email *" required data-error="Please Enter Valid Email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="subject">Company Name</label>
+                                        <input type="text" name="subject" class="md-input" id="subject-2" placeholder="Company Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="message">Project Details</label>
+                                        <textarea name="message" class="md-textarea" id="message" rows="7" placeholder="Project Details" required data-error="Please, explain your project"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <h4 style="padding-left: 5px">BUDGET</h4>
+                                </div>
 
-         <!--== Footer Start ==-->
+                                <div class="col-md-12 col-sm-12">
+                                    <form method="get">
+                                        <select name="BUDGET" class="BUDGET">
+                                            <option value="0-1999">$0 - $1999</option>
+                                            <option value="2000-4999">$2000 - $4999</option>
+                                            <option value="5000-14,9999">$5000 - $14,999</option>
+                                            <option value="15,000-29,999">$15,000 - $29,999</option>
+                                            <option value="30,000">$30,000+</option>
+                                        </select>
+                                    </form>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="text-left mt-20">
+                                        <button onclick="myFunction()" type="submit" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Send Message <i class="ion-android-arrow-forward"></i></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== Contact Form Style 01 End ==-->
+
+        <!--== Footer Start ==-->
         <footer class="footer dark-block">
             <div class="footer-main">
                 <div class="container">
@@ -171,10 +170,10 @@
                             <div class="copy-right text-left">© 2019 SmithStudios. All rights reserved</div>
                         </div>
                         <div class="col-md-6 col-xs-12">
-                            <ul class="social-media">
+                           <ul class="social-media">
                                 <li><a href="#" class="icofont icofont-social-facebook"></a></li>
-                                <li><a href="#" class="icofont icofont-social-instagram"></a></li>
-                                <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+                                <li><a href="https://www.instagram.com/smithstudiostoronto/" class="icofont icofont-social-instagram"></a></li>
+                                <li><a href="https://www.linkedin.com/company/smithstudios-toronto" class="icofont icofont-social-linkedin"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -298,13 +297,39 @@
     <script tpye="text/javascript">
         
         function myFunction() {
-              console.log(document.getElementById("contact-form"));
+
+            
+            
+             var x = document.getElementById("contact-form");
+            var text = "";
+            var i;
+            var body = {};
+            for (i = 0; i < x.length; i++) {
+                //                console.log(x.elements[i].name);
+                //                console.log(x.elements[i].value);
+                //                console.log('\n');
+                body[x.elements[i].name] = x.elements[i].value;
+
+
             }
-    
-    
+            console.log(body);
+            
+
+            
+            
+            let url = "http://SmithstudiosServer-env.myeg2m2vgd.ca-central-1.elasticbeanstalk.com/mailer";
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url, true);
+            
+            xhr.setRequestHeader('Content-Type', 'application/json');
+
+            
+            xhr.send(JSON.stringify({
+                value: body
+            }));
+       
+        }
     
     </script>
 
-</body>
-
-</html>
+</body></html>
