@@ -1,0 +1,147 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   ../assets/.DS_Store
+	modified:   ../assets/images/.DS_Store
+	modified:   ../assets/images/arrow2x.png
+	modified:   ../assets/images/bulbs.png
+	modified:   ../assets/images/cbp-loading.gif
+	modified:   ../assets/images/cbp-sprite.png
+	modified:   ../assets/images/clients/1-colored.png
+	modified:   ../assets/images/clients/1-light.png
+	modified:   ../assets/images/clients/1-white.png
+	modified:   ../assets/images/clients/1.png
+	modified:   ../assets/images/clients/10-light.png
+	modified:   ../assets/images/clients/10-white.png
+	modified:   ../assets/images/clients/10.png
+	modified:   ../assets/images/clients/2-colored.png
+	modified:   ../assets/images/clients/2-light.png
+	modified:   ../assets/images/clients/2-white.png
+	modified:   ../assets/images/clients/2.png
+	modified:   ../assets/images/clients/3-colored.png
+	modified:   ../assets/images/clients/3-light.png
+	modified:   ../assets/images/clients/3-white.png
+	modified:   ../assets/images/clients/3.png
+	modified:   ../assets/images/clients/4-colored.png
+	modified:   ../assets/images/clients/4-light.png
+	modified:   ../assets/images/clients/4-white.png
+	modified:   ../assets/images/clients/4.png
+	modified:   ../assets/images/clients/5-colored.png
+	modified:   ../assets/images/clients/5-light.png
+	modified:   ../assets/images/clients/5-white.png
+	modified:   ../assets/images/clients/5.png
+	modified:   ../assets/images/clients/6-colored.png
+	modified:   ../assets/images/clients/6-light.png
+	modified:   ../assets/images/clients/6-white.png
+	modified:   ../assets/images/clients/6.png
+	modified:   ../assets/images/clients/7-light.png
+	modified:   ../assets/images/clients/7-white.png
+	modified:   ../assets/images/clients/7.png
+	modified:   ../assets/images/clients/8-light.png
+	modified:   ../assets/images/clients/8-white.png
+	modified:   ../assets/images/clients/8.png
+	modified:   ../assets/images/clients/9-light.png
+	modified:   ../assets/images/clients/9-white.png
+	modified:   ../assets/images/clients/9.png
+	deleted:    ../assets/images/demo-imgs/center-logo-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/colored-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/corporate-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/creative-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/dark-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/dark-with-border-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/default-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/default-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/fixed-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/fixed-light-footer.jpg
+	deleted:    ../assets/images/demo-imgs/light-corporate-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/light-creative-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/light-footer-style.jpg
+	deleted:    ../assets/images/demo-imgs/menu-center-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/noborder-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/sidemenu-header-style-02.jpg
+	deleted:    ../assets/images/demo-imgs/sidemenu-header-style.jpg
+	deleted:    ../assets/images/demo-imgs/top-bar-header-style.jpg
+	deleted:    ../assets/images/dummy.png
+	modified:   ../assets/images/port1.png
+	modified:   ../assets/images/port2.png
+	modified:   ../assets/images/portfolio-cheasery.png
+	modified:   ../assets/images/portfolio-doggshoppe.png
+	modified:   ../assets/images/portfolio-shortcut.png
+	modified:   ../assets/images/portfolio/.DS_Store
+	modified:   ../assets/images/portfolio/cbp-loading.gif
+	modified:   ../assets/images/preview2.png
+	modified:   ../assets/images/shortcut-laptop.png
+	modified:   ../assets/images/website-main.png
+	modified:   ../assets/videos/.DS_Store
+	deleted:    ../assets/videos/Dancing-Bulbs.mp4
+	modified:   ../assets/videos/try1.mp4
+	deleted:    ../assets/videos/try2.mp4
+	modified:   ../contact-page.html
+	modified:   ../css/.DS_Store
+	deleted:    ../css/font-awesome/css/font-awesome.css
+	deleted:    ../css/font-awesome/css/font-awesome.min.css
+	deleted:    ../css/font-awesome/fonts/FontAwesome.otf
+	deleted:    ../css/font-awesome/fonts/fontawesome-webfont.eot
+	deleted:    ../css/font-awesome/fonts/fontawesome-webfont.svg
+	deleted:    ../css/font-awesome/fonts/fontawesome-webfont.ttf
+	deleted:    ../css/font-awesome/fonts/fontawesome-webfont.woff
+	deleted:    ../css/font-awesome/fonts/fontawesome-webfont.woff2
+	new file:   ../css/micons/.DS_Store
+	modified:   ../index.html
+	new file:   ../mobile-app-design-development-developer-mississauga-toronto-developers-company.html
+	modified:   ../pictures/try4.jpg
+	modified:   ../pictures/unnamed-1.jpg
+	modified:   ../revolution/.DS_Store
+	new file:   ../revolution/fonts/.DS_Store
+	deleted:    ../revolution/fonts/font-awesome/css/font-awesome.css
+	deleted:    ../revolution/fonts/font-awesome/css/font-awesome.min.css
+	deleted:    ../revolution/fonts/font-awesome/fonts/FontAwesome.otf
+	deleted:    ../revolution/fonts/font-awesome/fonts/fontawesome-webfont.eot
+	deleted:    ../revolution/fonts/font-awesome/fonts/fontawesome-webfont.svg
+	deleted:    ../revolution/fonts/font-awesome/fonts/fontawesome-webfont.ttf
+	deleted:    ../revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff
+	deleted:    ../revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2
+	deleted:    ../revolution/fonts/font-awesome/index.php
+	new file:   ../revolution/fonts/pe-icon-7-stroke/.DS_Store
+	new file:   ../robots.txt
+	new file:   ../sitemap.xml
+	modified:   ../solutions-page.html
+	modified:   ../website-page.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../.DS_Store
+	deleted:    ../app-page.html
+	modified:   ../assets/.DS_Store
+	modified:   ../assets/images/.DS_Store
+	modified:   ../contact-page.html
+	modified:   ../css/.DS_Store
+	modified:   ../css/micons/.DS_Store
+	deleted:    ../home-creative-agency.html
+	modified:   ../index.html
+	modified:   ../landing-page.css
+	modified:   ../mobile-app-design-development-developer-mississauga-toronto-developers-company.html
+	modified:   ../pictures/.DS_Store
+	modified:   ../pictures/check.png
+	modified:   ../revolution/.DS_Store
+	modified:   ../revolution/fonts/.DS_Store
+	modified:   ../revolution/fonts/pe-icon-7-stroke/.DS_Store
+	modified:   ../sitemap.xml
+	modified:   ../solutions-page.html
+	modified:   ../website-page.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../assets/images/instagram-tool-background.jpg
+	../assets/images/instagram-tool/
+	../landing-page.min.css
+	../sample.txtls
+	./
+	../source/
+

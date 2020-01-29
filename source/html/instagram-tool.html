@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <title> </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #main-background {
+            height: 100%;
+            width: 100%;
+            background-image: url(../assets/images/instagram-tool/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+        }
+
+        #main-container,
+        form {
+            position: relative;
+            height: 80%;
+            width: 80%;
+            background-color: transparent;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /**** FORM ****/
+        form label,
+        #submit,
+        #photo-url {
+            font-size: 80px;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        #photo-url {
+            color: black;
+            margin: 50px;
+        }
+
+        #submit {
+            background-color: white;
+            border: 2px black solid;
+            color: black;
+            padding: 25px;
+            margin: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="main-background">
+        <div id="main-container">
+            <form action="http://127.0.0.1:64267/source/instagram-tool.html" method="post">
+                <label for="photo-url">Photo Link From Instagram</label>
+                <input name="photo-url" id="photo-url" type="url" required>
+                <input type="submit" id="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+</body>
+<script>
+
+
+
+
+</script>
+
+</html>

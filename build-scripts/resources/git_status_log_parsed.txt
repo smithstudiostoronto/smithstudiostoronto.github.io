@@ -1,0 +1,12 @@
+	modified:   ../contact-page.html
+	modified:   ../index.html
+	new file:   ../mobile-app-design-development-developer-mississauga-toronto-developers-company.html
+	modified:   ../solutions-page.html
+	modified:   ../website-page.html
+	deleted:    ../app-page.html
+	modified:   ../contact-page.html
+	deleted:    ../home-creative-agency.html
+	modified:   ../index.html
+	modified:   ../mobile-app-design-development-developer-mississauga-toronto-developers-company.html
+	modified:   ../solutions-page.html
+	modified:   ../website-page.html
