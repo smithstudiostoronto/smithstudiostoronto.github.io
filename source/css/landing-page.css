@@ -1,4 +1,4 @@
-/*** SETUP ***/
+/**** SETUP ****/
 
 
 * {
@@ -24,11 +24,7 @@ a:hover {
     cursor: pointer;
 }
 
- 
-/*** MOBILE CSS ****/
-#desktop-container {
-    display: none
-}
+/**** BACKGROUND ****/
 
 #mobile-container {
     height: 100%;
@@ -48,6 +44,17 @@ a:hover {
 
 
 }
+
+
+
+
+
+/*** MOBILE CSS ****/
+#desktop-container {
+    display: none
+}
+
+
 
 #sheet {
     height: 100% !important;

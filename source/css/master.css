@@ -227,7 +227,7 @@ h6 {
     color: #212121;
     margin: 20px 0 10px 0;
     font-style: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -558,7 +558,7 @@ select {
 /* Sections */
 
 section {
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 120px;
     position: relative;
     z-index: 10;
@@ -4914,6 +4914,7 @@ img.mfp-img {
     padding: 40px;
     background: #fff;
     transition: all 0.2s ease;
+	box-shadow: 0 10px 30px 5px rgba(17, 21, 23, .1);
 }
 
 .pricing-box:hover {
